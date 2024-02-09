@@ -1,110 +1,122 @@
-# Astroship - Astro Starter Template 🛸
+![landy](https://user-images.githubusercontent.com/48876996/121569479-e179db80-ca31-11eb-8a48-9c3de9b142f3.gif)
 
-Astroship is a starter template for startups, marketing websites & landing pages. Built with Astro, TailwindCSS & Alpine.js.
+![Landy React Template License](https://img.shields.io/github/license/Adrinlol/landy-react-template)
+![Landy React Template Release Date](https://img.shields.io/github/release-date/Adrinlol/landy-react-template)
+![Landy React TemplateStars](https://img.shields.io/github/stars/Adrinlol/landy-react-template)
+![Landy React Template Language](https://img.shields.io/github/languages/top/Adrinlol/landy-react-template)
+![Landy React Template TypeScript](https://badgen.net/npm/types/tslib)
 
-This Free Template is sponsored by [Web3Templates](https://web3templates.com)
+## Free React landing page template
 
-## Live Demo
+[Landy][Landy] is an open-source React landing page template written in TypeScript, designed for developers and startups, who want to create a quick and professional landing page for their business or project.
 
-### [https://astroship.web3templates.com/](https://astroship.web3templates.com/)
+This React template comes with multi-lingual support, smooth animations, set of ready to use sections and most importantly, all of the content is stored in the JSON files, so that you can manage the texts without having any prior knowledge in React.js.
 
-## Deploy on Vercel
+## Table of contents
 
-Click the below link to deploy this template on Vercel
+- [Features](#features)
+- [Google Lighthouse](#google-lighthouse)
+  - [Performance](#performance)
+  - [Accessibility](#accessibility)
+  - [Best Practices](#best-practices)
+  - [SEO](#seo)
+- [Demo](#demo)
+- [Installation](#installation)
+- [Special Thanks](#special-thanks)
+- [Usage](#usage)
+- [License](#license)
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/surjithctly/astroship)
+## Features
 
-![image](https://user-images.githubusercontent.com/1884712/200831799-10ef2456-a02e-4068-b580-4b5326f0b33b.png)
+Your project will have everything you need to build a modern single-page React app:
 
-## Installation
+- 🎁 **Modern** – Template created using the latest features of React (State management using Hooks, Code-Splitting to reduce the bundle size)
 
-If you are reading this on github, you can click on the "Use this template" button above to create a new repository from astroship to your account. Then you can do a `git clone` to clone it to your local system.
+- 💻 **Responsive** – Highly responsive and reusable UI components, that change depending on the provided props
 
-Alternatively, you can clone the project directly from this repo to your local system.
+- 🚀 **Fast** – Buttery smooth experience thanks to the implementation of best practices and no third party dependencies, resulting in <b>PERFECT</b> Google Lighthouse scores
 
-### 1. Clone the repo
+- 🏷 **TypeScript support** – Landy is written in TypeScript to improve the DX
 
-```bash
-git clone https://github.com/surjithctly/astroship.git myProjectName
-# or
-git clone https://github.com/surjithctly/astroship.git .
+- 🌍 **Internationalization** - Prebuilt standalone file that works in every environment and doesn't require reloading the page to translate the content
+
+- 🛸 **Routing** - Each file inside the src/pages directory will generate its own route, so you don't have to manually handle the routing
+
+- 🤙 **Contact Form** - Contact form written in React Hooks, with uncontrolled form validation to reduce unnecessary performance penalty. You just need to provide the endpoint
+
+- ⚙️ **Maintenance** - All of the content is stored in the JSON files, so that you can easily manage the content of the website
+
+## Google Lighthouse
+
+![1](https://user-images.githubusercontent.com/48876996/121569366-c313e000-ca31-11eb-940c-187f556ff0d6.png)
+
+[Google Lighthouse][Google Lighthouse] is an open-source, automated tool for measuring the quality of web pages. Google Lighthouse audits performance, accessibility and search engine optimization of web pages.
+
+### Performance
+
+Audits for metrics like first paint and time to interactive to determine lag.
+
+### Accessibility
+
+Checks for common issues that may prevent users from accessing your content.
+
+### Best Practices
+
+Looks for everything from HTTPS usage to correct image aspect ratios.
+
+### SEO 
+
+Checks for best practices to ensure your site is discoverable.
+
+
+## Demo
+
+Check the live demo here 👉️ https://landy-web.netlify.app/
+
+
+### Installation
+
+You’ll need to have Node 10.16.0 or later version on your local development machine (but it’s not required on the server). I recommend using the latest LTS version.
+
+To create a new app, you have to:
+
+### npx
+
+Use the following command 
+
+```sh
+npx create-react-app my-app --template adrinlol
+cd my-app
+npm start
 ```
 
-The `.` will clone it to the current directory so make sure you are inside your project folder first.
+## What's included
 
-### 2. Install Dependencies
+- [axios][axios] - Promise based HTTP client for the browser and Node.js.
+- [antd][antd] - React UI library that contains a set of high quality components.
+- [react-awesome-reveal][react-awesome-reveal] - High performance library that adds reveal animations using the Intersection Observer API.
+- [styled-componets][styled-componets] - Variant on “CSS-in-JS”—which solves many of the problems with traditional CSS.
+- [i18next][i18next] - Internationalization-framework written in and for JavaScript.
 
-```bash
-npm install
-# or
-yarn install
-# or (recommended)
-pnpm install
-```
+## Special thanks
 
-### 3. Start development Server
+[whoooa][whoooa] - Use fantastic, handmade illustrations with easily changeable colors and different styles.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or (recommended)
-pnpm dev
-```
+## Usage
 
-### Preview & Build
+Use it for whatever you want, and be sure to reach out to me on [Twitter](https://twitter.com/Adrinlolx) if you have any questions, or build something cool with it.
 
-```bash
-npm run preview
-npm run build
-# or
-yarn preview
-yarn build
-# or (recommended)
-pnpm preview
-pnpm build
-```
+## License
 
-We recommend using [pnpm](https://pnpm.io/) to save disk space on your computer.
+Licensed under the MIT license.
 
-### Other Commands
-
-```bash
-pnpm astro ...
-pnpm astro add
-pnpm astro --help
-```
-
-## Project Structure
-
-Inside of your Astro project, you'll see the following folders and files:
-
-```
-/
-├── public/
-│   └── ...
-├── src/
-│   ├── components/
-│   │   └── ...
-│   ├── layouts/
-│   │   └── ...
-│   └── pages/
-│       └── ...
-└── package.json
-```
-
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
-
-Any static assets, like images, can be placed in the `public/` directory.
-
-## TailwindCSS & Alpine.js
-
-TailwindCSS & Alpine.js are already configured in this repo, so you can start using them without any installation.
-
-## Credits
-
-[Hero Illustration](https://www.figma.com/community/file/1108400791662599811) by [Streamline](https://www.streamlinehq.com/)
-
-## 👀 Want to learn more?
-
-Feel free to check out [Astro Docs](https://docs.astro.build) or jump into our [Discord Chat](https://web3templates.com/discord).
+<!-- prettier-ignore-start -->
+[axios]: https://github.com/axios/axios
+[antd]: https://github.com/ant-design/ant-design
+[react-awesome-reveal]: https://www.npmjs.com/package/react-awesome-reveal
+[styled-componets]: https://github.com/styled-components/styled-components
+[i18next]: https://github.com/i18next/i18next
+[whoooa]: https://www.whoooa.rocks/
+[Landy]: https://www.npmjs.com/package/cra-template-adrinlol
+[Google Lighthouse]: https://developers.google.com/web/tools/lighthouse
+<!-- prettier-ignore-end -->
