@@ -1,70 +1,110 @@
-# Getting Started with Create React App
+# Astroship - Astro Starter Template 🛸
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Astroship is a starter template for startups, marketing websites & landing pages. Built with Astro, TailwindCSS & Alpine.js.
 
-## Available Scripts
+This Free Template is sponsored by [Web3Templates](https://web3templates.com)
 
-In the project directory, you can run:
+## Live Demo
 
-### `npm start`
+### [https://astroship.web3templates.com/](https://astroship.web3templates.com/)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Deploy on Vercel
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Click the below link to deploy this template on Vercel
 
-### `npm test`
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/surjithctly/astroship)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![image](https://user-images.githubusercontent.com/1884712/200831799-10ef2456-a02e-4068-b580-4b5326f0b33b.png)
 
-### `npm run build`
+## Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+If you are reading this on github, you can click on the "Use this template" button above to create a new repository from astroship to your account. Then you can do a `git clone` to clone it to your local system.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Alternatively, you can clone the project directly from this repo to your local system.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 1. Clone the repo
 
-### `npm run eject`
+```bash
+git clone https://github.com/surjithctly/astroship.git myProjectName
+# or
+git clone https://github.com/surjithctly/astroship.git .
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+The `.` will clone it to the current directory so make sure you are inside your project folder first.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 2. Install Dependencies
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+npm install
+# or
+yarn install
+# or (recommended)
+pnpm install
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### 3. Start development Server
 
-## Learn More
+```bash
+npm run dev
+# or
+yarn dev
+# or (recommended)
+pnpm dev
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Preview & Build
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+npm run preview
+npm run build
+# or
+yarn preview
+yarn build
+# or (recommended)
+pnpm preview
+pnpm build
+```
 
-### Code Splitting
+We recommend using [pnpm](https://pnpm.io/) to save disk space on your computer.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Other Commands
 
-### Analyzing the Bundle Size
+```bash
+pnpm astro ...
+pnpm astro add
+pnpm astro --help
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Project Structure
 
-### Making a Progressive Web App
+Inside of your Astro project, you'll see the following folders and files:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```
+/
+├── public/
+│   └── ...
+├── src/
+│   ├── components/
+│   │   └── ...
+│   ├── layouts/
+│   │   └── ...
+│   └── pages/
+│       └── ...
+└── package.json
+```
 
-### Advanced Configuration
+Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Any static assets, like images, can be placed in the `public/` directory.
 
-### Deployment
+## TailwindCSS & Alpine.js
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+TailwindCSS & Alpine.js are already configured in this repo, so you can start using them without any installation.
 
-### `npm run build` fails to minify
+## Credits
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[Hero Illustration](https://www.figma.com/community/file/1108400791662599811) by [Streamline](https://www.streamlinehq.com/)
+
+## 👀 Want to learn more?
+
+Feel free to check out [Astro Docs](https://docs.astro.build) or jump into our [Discord Chat](https://web3templates.com/discord).
